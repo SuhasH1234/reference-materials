@@ -1,0 +1,62 @@
+CSS
+
+> cascading style sheets
+> style a web page
+> design, layout, variations display
+
+> css syntax: h4 {		== h4: selector, color/font-weight: property, pink, bold, 50px: values 
+            color: pink;
+            font-weight: bold;
+        }
+
+> css selector: used to select the html elements which we want to style
+> 5 categories: Simple sel
+		Combination sel
+		Pseudo class sel
+		Pseudo elements sel
+		Attribute sel
+> simple sel: name, id, class
+> combination sel: it selects elements based on some relationship between them
+> Pseudo class sel: selects elements based on certain specific state
+> Pseudo elements sel: selects and styles a part of an element
+> Attribute sel: selects elements based on attribute or attribute values
+
+> element selector: selects html elements based on element name
+< id selector: uses the id attribute to an html element to specify the certain element
+> class selector: selects html elements with a specific class attribute
+> universal selector: selects all html elements in page
+
+> types of css: inline, internal, external
+> inline css: used to apply a style for a single element
+> internal css: used to style one single html page which has unique style and is declared in head section with <style>
+> external css: 
+
+> css comments: /* */
+> css colors: rgb, hex, hsl
+> css backgrounds: 
+> css borders: 
+> css margins: 
+> css padding: 
+> css width height: 
+> css gradients: linear, radial, conic
+> css shadows: 
+> css buttons: 
+> css media queries: 
+> css flexbox:
+
+> box model: content, padding, border, margin
+
+>z-index: property specifies the stack order of positioned elements.
+	>  specifies which element should be placed in front or behind other elements.
+
+>sass: Syntactically Awesome stylesheets
+	> extension of css
+	> css preprocessor
+	> reduces css repetition
+	> $primary_btn: .....
+	> .scss extension
+	> sass nesting
+	> @import : directive allows you to include the content of one file in another.
+	> @mixin: directive lets you create CSS code that is to be reused throughout the website.
+	> @include: directive is created to let you use (include) the mixin.
+	> @extend: directive lets you share a set of CSS properties from one selector to another.

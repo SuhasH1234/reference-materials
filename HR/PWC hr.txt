@@ -1,0 +1,27 @@
+PWC:
+(PricewaterhouseCoopers)
+
+1) Why PWC?
+PwC is one of the Big Four professional services firms, known globally 
+for its excellence in consulting, audit, and technology-driven solutions.
+I’m particularly interested in PwC because it’s a place that blends 
+technology with real business impact.
+As someone who loves building user-focused interfaces and working 
+on modern technologies like React and cloud, 
+PwC’s focus on digital transformation aligns perfectly with my interests.
+I also value PwC’s culture of continuous learning and teamwork, 
+which I believe will help me grow both technically and professionally.
+
+2) Why You Want to Join PwC?
+I want to join PwC because it’s a company that perfectly 
+combines technology, innovation, and real business impact.
+I’m passionate about front-end development, and PwC provides the 
+kind of large-scale, cloud-integrated, modern UI projects where 
+I can apply my skills in React, SCSS, and Material UI to create meaningful user experiences.
+I also appreciate that PwC encourages learning and working with new technologies, 
+which means I can keep growing as a developer while contributing to a 
+global brand known for excellence.
+More than anything, I see PwC as a place where I can learn, contribute, 
+and grow into a better version of myself — both technically and professionally.
+
+

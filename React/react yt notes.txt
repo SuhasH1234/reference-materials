@@ -1,0 +1,211 @@
+React
+
+> npx create-react-app my-app
+> cd my-app
+> npm start or npm run dev
+
+> <ul>
+	{userList.map(user => <li key={user}>{user.name}....</li>)}
+  </ul>
+
+> const btnFunc = () => {
+    alert("Hello");
+  }
+   <button onClick={btnFunc}>Click Me</button>
+
+> const btnStyles = {
+    color: "red",
+    fontSize: "20px"
+  }
+   <h1 style={btnStyles}>Hello</h1>
+
+> passing as props:
+	Car.jsx:
+		const Car = (props) => {
+		return (
+		<>
+			<h1>Car brand is {props.brand}
+		</>
+		);
+		};
+	App.js:
+		const carDetails= {"Car"};
+		return (
+			<Car brand={carDeatails.brand}>
+		}....
+
+> forms:
+	const [name, setName] = useState("");
+
+  	function handleChange(e) {
+    		setName(e.target.value);
+  	}
+
+	function handleSubmit(e) {
+    		e.preventDefault();
+   		alert(name);
+  	}
+return
+	<form>
+      		<label>Enter Name:</label>
+      		<input type='text' value={name} onChange={handleChange} />
+      		<h1>Your name is: {name}</h1>
+		<input type='submit' onClick={handleSubmit} />
+    	</form>
+
+> textarea: <textarea value={mytxt} onChange={handleChangeTxt} />
+
+> select: <select value={myCar} onChange={handleChangeCar}>
+        	<option value="BMW">BMW</option>
+        	<option value="Audi">Audi</option>
+        	<option value="Mercedes">Mercedes</option>
+      	  </select>
+          <p>Selected car: {myCar}</p>
+
+> multiple inputs: 
+	<label>First Name:</label>
+      <input type='text' name='firstname' value={multipleInputs.firstname} onChange={handleChangeMultiple} />
+      <label>Last Name:</label>
+      <input type='text' name='lastname' value={multipleInputs.lastname} onChange={handleChangeMultiple} />
+      <p>FirstName is {multipleInputs.firstname} and lastname is {multipleInputs.lastname}. Full Name: {multipleInputs.firstname + multipleInputs.lastname} </p>
+
+> check boxes:
+	<label>Interests:</label>
+      <input type='checkbox' name='football' checked={checkboxes.football || false} onChange={handleChangeCheckboxes} />Football
+      <input type='checkbox' name='basketball' checked={checkboxes.basketball || false} onChange={handleChangeCheckboxes} />Basketball
+      <input type='checkbox' name='tennis' checked={checkboxes.tennis || false} onChange={handleChangeCheckboxes} />Tennis
+      <p>Your interests are: 
+        {checkboxes.football && " Football "}
+        {checkboxes.basketball && " Basketball "}
+        {checkboxes.tennis && " Tennis "}
+      </p>
+
+> radio boxes:
+	const [radiobox, setRadiobox] = useState("");
+
+  const handleChangeRadiobox = (e) => {
+    setRadiobox(e.target.value);
+  };
+	<label>Select your gender:</label>
+      <input type='radio' name='gender' value='Male' checked={radiobox === 'Male'} onChange={handleChangeRadiobox} />Male
+      <input type='radio' name='gender' value='Female' checked={radiobox === 'Female'} onChange={handleChangeRadiobox} />Female
+      <input type='radio' name='gender' value='Other' checked={radiobox === 'Other'} onChange={handleChangeRadiobox} />Other
+      <p>Your gender is: {radiobox}</p>
+
+> Suspense: is a react feature that lets the components display an alternative text while waiting for code or data to load
+	<Suspense fallback={<div>Loading...</div>}><Cars /> </Suspense>
+
+> lazy(): lets you load a component dynamically
+	const Header = lazy(() => import('./Header'));
+
+> Suspense: shows a fallback while the component loads
+	<Suspense fallback={<div>Loading...</div>}>
+        	<Header />
+        	<div style={{ display: 'flex' }}>
+          	<Sidebar />
+          	<Content />
+        	</div>
+        </Suspense>
+
+> React Router:
+	> is a library that provides routing capabilities for React applications.
+	> npm install react-router-dom
+
+> React transitions:
+	> useTransition hook 
+	> helps you keep your React app responsive during heavy updates.
+	> mark some state updates as "non-urgent", allowing other, more urgent updates to happen first.
+	> 2 items: isPending(tells if a transition is active)
+		   startTransition(function to mark updates on transition)
+
+> React Forward Ref:
+	> lets your component pass a reference to one of its children
+
+> HOC:
+	> Higher Order Component
+	> wrapper that adds extra features to your React components. 
+
+> Hooks:
+	> allow functions to have access to state and other react features without using classes.
+	> are functional components with the ability to use states and manage side effects
+
+> useState Hook:
+	> allows us to track state in a functional component
+	> import { useState } from "react";
+
+> useEffect Hook:
+	> allows us to perform side effects in components
+	> side effects are: fetching data, directly updating the DOM, and timers.
+	> accepts 2 arguments: useEffect(<function>, <dependency>)
+	> import { useEffect } from 'react';
+
+> useContext Hook:
+	> allows us to manage state globally.
+	> makes it possible to access the information without being passed as a prop
+	> import { createContext, useContext } from 'react';
+	> const UserContext = createContext();
+
+> useRef Hook:
+	> creates a variable containg the information not used for rendering
+	> import { useRef } from 'react';
+
+> useReducer Hook:
+	> provides state variable along with update custom logic in reducer function
+	> 3 arguments: useReducer(reducer, initialState, init)
+
+> useCallback Hook:
+	> return a memoized callback function
+	> memoizing means caching the result of the function so that it does not need to be recalculated
+	> 2 arguments: useCallback(callback, dependencies)
+	
+> useMemo Hook:
+	> returns a memoized value
+	> This will cause the function to only run when needed.
+
+> Custom Hook:
+	> use
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,274 @@
+JavaScript:
+
+> pl
+> used of calculation, manipulation, validation of data
+> used for updating and changing the contents of html and css.
+> program behaviour of webpages
+
+> getElementById(): document.getElementByID("").innerHTML= "Suhas";
+> html content, attribute, css, hide, show
+
+>adv: divides the html and css, easier to read and maintain, cache 
+
+> js output: innerHTML, document.write(), window.alert(), console.log()
+> 2 types of values: Literals (fixed), Variables(change)
+> js keywords: use to perform action for an element
+> var, let, const, if, switch, for , function, return, try
+
+> js comments: //, /* */
+
+> js variables: var (gs), let (bs), constant (bs)
+> var: gs, yes, yes, yes, yes
+> let: bs, no, yes, no, no
+> const: bs, no, no, no, no
+
+>js datatypes: 8=> String, number, bignit, boolean, object, undefined, null, symbol
+> typeof operator
+
+>js operators: Arithmetic, asssignment, comparison, logical,
+
+>js conditional stat: if, if else, if else if else, switch, ternary
+
+> js loops: used to execute a block of coder for a certain no. of times.
+> for, while, do while, break, continue
+> for: for(exp1;exp2;exp) { }
+> while: while(condition) { } //used untill a specific condition is true
+> do while: do { } while(condition); //used to execute the code once before checking the condition is true 
+	and will repeat the loop as long as the condition is true
+> break: 
+> continue: skips the current/present iteration in loop
+
+> js strings: 
+	> strings -> object :
+	> interpolation: $
+	> string methods: charAt(), concat(), slice(start, end), substring(start, end), substr(start, length),
+		toLowerCase(), toUpperCase(), trim(), repeat(), replace(), replaceAll(), split(),
+		SearchMethods: indexOf(), lastIndexOf(), search(), match(), matchAll(), includes(),
+			startWith(), endsWith()
+Name	Description
+at()	Returns an indexed character from a string
+charAt()	Returns the character at a specified index (position)
+charCodeAt()	Returns the Unicode of the character at a specified index
+codePointAt()	Returns the Unicode value at an index (position) in a string
+concat()	Returns two or more joined strings
+constructor	Returns the string's constructor function
+endsWith()	Returns if a string ends with a specified value
+fromCharCode()	Returns Unicode values as characters
+includes()	Returns if a string contains a specified value
+indexOf()	Returns the index (position) of the first occurrence of a value in a string
+isWellFormed()	Returns true if a string is well formed
+lastIndexOf()	Returns the index (position) of the last occurrence of a value in a string
+length	Returns the length of a string
+localeCompare()	Compares two strings in the current locale
+match()	Searches a string for a value, or a regular expression, and returns the matches
+matchAll()	Searches a string for a value, or a regular expression, and returns the matches
+padEnd()	Pads a string at the end
+padStart()	Pads a string from the start
+prototype	Allows you to add properties and methods to an object
+repeat()	Returns a new string with a number of copies of a string
+replace()	Searches a string for a pattern, and returns a string where the first match is replaced
+replaceAll()	Searches a string for a pattern and returns a new string where all matches are replaced
+search()	Searches a string for a value, or regular expression, and returns the index (position) of the match
+slice()	Extracts a part of a string and returns a new string
+split()	Splits a string into an array of substrings
+startsWith()	Checks whether a string begins with specified characters
+substr()	Deprecated. Use substring() or slice() instead.
+substring()	Extracts characters from a string, between two specified indices (positions)
+toLocaleLowerCase()	Returns a string converted to lowercase letters, using the host's locale
+toLocaleUpperCase()	Returns a string converted to uppercase letters, using the host's locale
+toLowerCase()	Returns a string converted to lowercase letters
+toString()	Returns a string or a string object as a string
+toUpperCase()	Returns a string converted to uppercase letters
+toWellFormed()	Returns a string where "lone surrogates" are replaced with the Unicode replacement character
+trim()	Returns a string with removed whitespaces
+trimEnd()	Returns a string with removed whitespaces from the end
+trimStart()	Returns a string with removed whitespaces from the start
+valueOf()	Returns the primitive value of a string or a string object
+
+> js Numbers:
+
+Name	Description
+constructor	Returns the function that created JavaScript's Number prototype
+EPSILON	Returns the difference between 1 and the smallest number greater than 1
+isFinite()	Checks whether a value is a finite number
+isInteger()	Checks whether a value is an integer
+isNaN()	Checks whether a value is Number.NaN
+isSafeInteger()	Checks whether a value is a safe integer
+MAX_SAFE_INTEGER	Returns the maximum safe integer in JavaScript.
+MIN_SAFE_INTEGER	Returns the minimum safe integer in JavaScript
+MAX_VALUE	Returns the largest number possible in JavaScript
+MIN_VALUE	Returns the smallest number possible in JavaScript
+NaN	Represents a "Not-a-Number" value
+NEGATIVE_INFINITY	Represents negative infinity (returned on overflow)
+POSITIVE_INFINITY	Represents infinity (returned on overflow)
+parseFloat()	Parses a string an returns a number
+parseInt()	Parses a string an returns a whole number
+prototype	Allows you to add properties and methods to an object
+toExponential(x)	Converts a number into an exponential notation
+toFixed(x)	Formats a number with x numbers of digits after the decimal point
+toLocaleString()	Converts a number into a string, based on the locale settings
+toPrecision(x)	Formats a number to x length
+toString()	Converts a number to a string
+valueOf()	Returns the primitive value of a number
+
+>js arrays:
+	>forEach(): calls a function once for each array element
+	>map():
+	>filter(): 
+	>reduce():
+	>spread: unpacks elements; expands an array into individual elements
+	>rest: packs elements; collects values
+
+Name	Description
+[ ]	Creates a new Array
+new Array()	Creates a new Array
+at()	Returns an indexed element of an array
+concat()	Joins arrays and returns an array with the joined arrays
+constructor	Returns the function that created the Array prototype
+copyWithin()	Copies array elements within the array, to and from specified positions
+entries()	Returns a key/value pair Array Iteration Object
+every()	Checks if every element in an array pass a test
+fill()	Fill the elements in an array with a static value
+filter()	Creates a new array with every element in an array that pass a test
+find()	Returns the value of the first element in an array that pass a test
+findIndex()	Returns the index of the first element in an array that pass a test
+findLast()	Returns the value of the last element in an array that pass a test
+findLastIndex()	Returns the index of the last element in an array that pass a test
+flat()	Concatenates sub-array elements
+flatMap()	Maps all array elements and creates a new flat array
+forEach()	Calls a function for each array element
+from()	Creates an array from an object
+includes()	Check if an array contains the specified element
+indexOf()	Search the array for an element and returns its position
+isArray()	Checks whether an object is an array
+join()	Joins all elements of an array into a string
+keys()	Returns a Array Iteration Object, containing the keys of the original array
+lastIndexOf()	Search the array for an element, starting at the end, and returns its position
+length	Sets or returns the number of elements in an array
+map()	Creates a new array with the result of calling a function for each array element
+of()	Creates an array from a number of arguments
+pop()	Removes the last element of an array, and returns that element
+prototype	Allows you to add properties and methods to an Array object
+push()	Adds new elements to the end of an array, and returns the new length
+reduce()	Reduce the values of an array to a single value (going left-to-right)
+reduceRight()	Reduce the values of an array to a single value (going right-to-left)
+reverse()	Reverses the order of the elements in an array
+shift()	Removes the first element of an array, and returns that element
+slice()	Selects a part of an array, and returns the new array
+some()	Checks if any of the elements in an array pass a test
+sort()	Sorts the elements of an array
+splice()	Adds or Removes array elements
+toReversed()	Reverses the order of array elements (to a new array)
+toSorted()	Sorts the elements of an array (to a new array)
+toSpliced()	Adds or Removes array elements (to a new array)
+toString()	Converts an array to a string, and returns the result
+unshift()	Adds new elements to the beginning of an array, and returns the new length
+valueOf()	Returns the primitive value of an array
+with()	Returns a new array with updated elements
+
+> set: 
+	>collection of unique values
+	> new Set()
+	> add()
+	> for..of()
+	> has()
+	> forEach()
+
+Method	Description
+new Set()	Creates a new set
+add()	Adds a new element to a set
+clear()	Removes all elements from a set
+delete()	Removes an element from a set
+difference()	Returns the difference between two sets
+entries()	Returns an Iterator with the [value,value] pairs from a set
+forEach()	Invokes a callback for each element in a set
+has()	Returns true if a value exists
+intersection()	Returns the intersection of two sets
+isDisjointFrom()	Returns true if no elements in a set are elements in another set
+isSubsetOf()	Returns true if a set is a subset of another set
+isSupersetOf()	Returns true if a set is a superset of another set
+keys()	Same as values()
+symmetricDifference()	Returns the symmetric difference between two set
+union()	Returns the union of two sets
+values()	Returns an Iterator with the values in a set
+
+> map:
+	> key value pairs
+	> new Map()
+	> set()
+	> get()
+
+Method	Description
+new Map()	Creates a new Map object
+clear()	Removes all the elements from a Map
+delete()	Removes a Map element specified by a key
+entries()	Returns an iterator object with the [key, value] pairs in a Map
+forEach()	Invokes a callback for each key/value pair in a Map
+get()	Gets the value for a key in a Map
+groupBy()	Groups object elements according to returned callback values
+has()	Returns true if a key exists in a Map
+keys()	Returns an iterator object with the keys in a Map
+set()	Sets the value for a key in a Map
+size	Returns the number of Map elements
+values()	Returns an iterator object of the values in a Map
+
+> errors: 
+	> Reference errors
+	> Type errors
+	> range errors
+	> URI errors
+	> Syntax errors
+
+> try {	// code that may cause error
+  } catch(error) {	// code to handle error
+  } finally {	// code that always runs 
+  }
+
+> throw : custom error
+
+> events:
+	> onchange
+	> onclick
+	> onmouseover
+	> onmouseout
+	> onkeydown
+	> onload
+
+> closure: is a function that has access to parent scope, after the parent function has closed
+	> create private variables
+
+>js execute program from top to bottom and left to right
+
+> asynchronous patterns:
+	> events
+	> callbacks:  is a function passed as an argument to another function.
+	> promises
+	> async/await
+
+> DOM: Document Object model
+	> tree of objects
+
+> ajax: asyn. js and xml
+	>eg: <employees>
+  		<employee>
+    			<firstName>John</firstName> <lastName>Doe</lastName>
+  		</employee>
+  		<employee>
+    			<firstName>Anna</firstName> <lastName>Smith</lastName>
+  		</employee>
+  		<employee>
+    			<firstName>Peter</firstName> <lastName>Jones</lastName>
+  		</employee>
+	     </employees>
+
+>json: js object notation
+	> stringify
+	> parse
+	> eg: {"employees":[
+  		{ "firstName":"John", "lastName":"Doe" },
+  		{ "firstName":"Anna", "lastName":"Smith" },
+  		{ "firstName":"Peter", "lastName":"Jones" }
+	]}
+
+>jquery: $("..");
+	

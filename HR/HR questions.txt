@@ -1,0 +1,95 @@
+### 1. Tell me about yourself
+good morning, thankyou for giving me this oppurtunity to introduce. 
+my name is Suhas H, and i recently graduated with a b tech degree in CSE from Presidency University. 
+I have overall cgpa of 8.94, 
+I have done done my internship in Vectrostack as a Reactjs(Front end dev) developer, where i gained 
+hands-on experience in building responsive web applications,API integration, code optimization, 
+and team collaboration.  
+and got an oppurtunity to work on the company main project. 
+i have also done my projects realted to full stack development like Timetable managemnt system, 
+smart communication platform for varanasi artisans which includes technologies like \
+java, springboot, react, js and other frameworks and technologies.
+I’m passionate about leveraging technology to solve real-world problems and 
+excited to contribute to innovative projects.
+
+### 2. Why do you want to join Sony?
+I want to join Sony because it’s a company that truly values innovation and technology. 
+As a global leader in both software and electronics, Sony provides the perfect environment 
+to apply my skills in software development and learn from industry experts.
+I’m genuinely excited about this role because it combines the areas I’m passionate about 
+and have been actively learning — especially through my projects using Java, Spring Boot, React, 
+and other frameworks.
+I also admire how Sony values creativity and technical excellence equally. 
+I believe that being in such an innovative environment will help me grow both technically 
+and professionally. That’s why I see Sony as the perfect place to start and build my career.
+
+### 3. What are your strengths?
+My biggest strengths are adaptability, problem-solving, and teamwork. 
+I adapt to new technologies quickly and apply them effectively to deliver results. 
+I’m also good at adjusting to changing project requirements without losing focus.
+For example, while developing my Timetable Management System, I had to implement secure authentication, 
+so I quickly learned JWT and Spring Security within a few days — and successfully built a secure login system. 
+That experience taught me how fast learning and persistence can solve real challenges.
+I also value collaboration and feedback, because I believe that’s how individuals and teams continuously 
+improve together.
+
+### 4. What is your biggest weakness?
+I sometimes spend too much time perfecting a small part of a project because I care about details. 
+But I’ve been improving by prioritizing tasks better and focusing on completing high-impact work first.
+
+### 5. How do you handle challenges or pressure?
+I try to stay calm and focus on understanding the problem first.
+I usually break the issue into smaller parts and tackle them step by step.
+During my React internship, I once faced a critical API integration bug close to the delivery deadline. 
+Instead of panicking, I analyzed logs, and resolved it within a few hours. 
+I believe staying composed and analytical under pressure always helps.
+
+### 6. How do you handle feedback or criticism?
+I see feedback as a growth opportunity. During my internship, I received feedback about improving 
+component reusability in React. I took it positively, refactored my code, and the overall performance improved. 
+Constructive feedback motivates me to refine my skills and deliver better results.
+
+### 7. What are your short-term and long-term goals?
+In the short term, my goal is to gain hands-on industry experience in various kinds of software development.
+In the long term, I aspire to become a senior software engineer who can design scalable, intelligent systems 
+and contribute to digital transformation initiatives like those at Sony.
+
+### 8. What’s your biggest achievement so far?
+Building the Timetable Management System completely from scratch is something I’m proud of. 
+It involved backend APIs, authentication, and frontend integration. It was challenging initially, 
+but it gave me confidence that I can handle end-to-end development independently.
+
+### 9. Describe a time you worked in a team.
+In my Smart Communication Platform project for artisans, I worked in a small team where 
+I handled both frontend and backend integration while another teammate focused on certain changes in UI. 
+We collaborated using Git and regularly reviewed each other’s code. 
+That project taught me the importance of clear communication and version control when working in teams.
+
+### 10. How do you prioritize your tasks?
+I usually list tasks based on their urgency and impact. 
+I start with the most critical deliverables and then move to enhancements or optimizations. 
+Tools like simple to-do lists help me stay organized.
+
+### 11. Why should we hire you?
+You should hire me because I don’t just write code — i understand how technology can solve real world problems. 
+I’m adaptable, eager to learn, take feedback seriously, and always aim to deliver results that make a real impact.
+Moreover the preferred skills mentioned perfectly matches to my skills.
+I’ve already worked on full-stack applications, integrated REST APIs, and managed databases, 
+so I can quickly get up to speed and start contributing to Sony’s projects.
+More importantly, I bring a strong sense of problem-solving and teamwork responsibility skills.
+I’m confident I can grow with Sony’s team — contributing to meaningful projects 
+while continuously improving myself.
+
+### 12. How do you keep yourself updated with new technologies?
+I regularly follow YouTube channels, LinkedIn learning posts, and online learning platforms. 
+I also take part in virtual hackathons and simulations — for example, genai...
+
+### 13. What are your salary expectations?
+Based on my research and understanding of the industry standards for this role, 
+I would expect a salary in the range of [provide a range]. 
+However, I’m open to discussing this further, considering the overall compensation package 
+and opportunities for growth within [company].
+
+### 14. Any questions for us?
+Yes, I do have one question — could you please share a bit more about the onboarding process and 
+how soon the onboarding is expected to begin after the selection?

@@ -1,0 +1,57 @@
+HTML
+> Hypertext transfer protocol
+> create web pages
+> describes the structure of web page
+> html structure:
+	<html>
+		<head>
+			<title></title>
+		</head>
+		<body>
+			<h1></h1>
+			<p></p>
+		</body>
+	</html>
+
+>.html or .htm
+> html headings: <h1>...<h6>
+> html paragraphs: <p> </p>
+> html links: <a>
+> html images: <img> 
+> html is not a case sensitive: <p> <P>	
+> <style>: is used to add style to an element, bg, tcolor, font, ff,fs, textalign
+> horizontal rules: <hr> </hr>
+<html line breaks: <br> 
+> <pre> : preformatted text
+
+> html formatting elements: <b> <strong> <i> <em> <mark> <small> <del> <ins> <sub> <sup>
+>html comments: <!-- Hi -->
+> html colors: rgb, hex, hsl
+> html bookmarks:
+> html table: <table> <tr> <th> <td>
+> table border: 
+> Html lists: <ol> <ul> <dl>
+<html block and inline elements: <p> <div> : <span><a><abbr><acronym><b><bdo><big><br>
+						<button><cite><code><dfn><em><i><img><input>
+						<kbd><label><map>
+						<object><output><q><samp><script><select>
+						<small><span><strong>
+						<sub><sup><textarea><time><tt><var>
+
+>html forms: <form>
+> html input types: color, date, email, image, number, passoword, range, reset, search, tel
+			time, url, week
+> readonly, disabled, size, maxlength , min, max, multiple, pattern, placeholder, required
+			autofocus, height, width, list, autocomplete
+
+> html semantic elements: <header> <nav> <article> <section> <aside> <footer>
+> html media: audio, video
+
+> html web api: application programming interface for the web.
+	types: geolocation api
+		drag and drop api
+		web storage api
+		web Workers api
+		Server sent events api
+		Canvas api
+			
